@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    /* background: rgb(246, 243, 243); */
+    background: #fff;
+    
+}
+.nav_container{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+.name_dets{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+   
+}
+
+.name_dets .slash{
+    font-size: 23px;
+}
+
+.name_dets .name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.name_dets .title{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.nav_list{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+.nav_list p a:hover{
+    color: blue;
+}
+
+.blue{
+    background: blue;
+    height: 12px;
+    width: 12px;
+}
+
+.nav_list p a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,85 @@
+.contact{
+    background: #edded1;
+    /* height: 100vh;
+    width: 100vw; */
+}
+.contact_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 40px;
+}
+.contact_header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.blue{
+    background: blue;
+    height: 12px;
+    width: 12px;
+}
+
+.contact_form{
+    background: white;
+    width: 700px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px #c2ad9c
+    
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.first_name, .last_name{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.email,.subject,.Message{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+label{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blue;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid blue;
+}
+
+
+button{
+    padding: 10px 15px;
+    background: blue;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100px;
+}

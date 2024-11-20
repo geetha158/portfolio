@@ -1,0 +1,121 @@
+.hero{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background: linear-gradient(to right, #edded1 40%, #fff 40%);; 
+   height: 100vh;
+   width: 100vw;
+}
+
+.hero_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_sec_container{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    margin-top: 195px;
+   
+}
+
+.hero_left .icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.hero_left img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hero_left h4{
+    font-size: 25px;
+
+}
+
+.hero_left .line{
+    width: 100px;
+    border: 1px solid blue;
+    margin-top: -10px;
+}
+
+.hero_left .role{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hero_left{
+    background: #d8c6b7;
+    padding: 30px 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 6px 12px #d4c3b5
+
+}
+
+.hero_right{
+    padding: 20px 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 0;
+}
+
+.hero_right div h1{
+    font-size: 80px;
+    margin-top: -15px;
+}
+
+.hero_right div .what{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -40px;
+}
+
+.hero_right .dets{
+    display: flex;
+    gap: 10px;
+}
+
+.hero_right .dets p{
+    
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.hero_right .dets .project{
+    background: blue;
+    color: white;
+}
+
+.hero_right .dets .project:hover{
+    background: white;
+    color: black;
+    border: 1px solid blue;
+}
+
+.hero_right .dets .resume:hover{
+    background: blue;
+    color: white;
+   
+}
+
+.hero_right .context{
+    font-size: 14px;
+    line-height: 1.55;
+    font-weight: 100;
+    font-family: monospace;
+}
