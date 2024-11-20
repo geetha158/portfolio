@@ -20,7 +20,7 @@ const Projects = () => {
                           <h1>{data.name}</h1>
                           <p>{data.description}</p>
                           <p>{data.skills}</p>
-                          <a href={data.link} target='_blank'>CLICK HERE</a>
+                          <a href={data.link} target='_blank' rel='noreferrer'>CLICK HERE</a>
                         </div>
                         <div className='left'>
                           <img src={data.photo} alt="" />
