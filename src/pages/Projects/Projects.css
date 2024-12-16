@@ -74,3 +74,44 @@ img{
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
+@media (max-width:820px){
+    .project_data{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .project_dets{
+
+    gap: 15px;
+    height: 255px;
+    width: 284px;
+    padding: 9px 11px;
+    }
+
+
+    .project_dets .right a{
+        font-size: 9px;
+    }
+
+    .project_dets .right p{
+        font-size: 9px;
+
+    }
+
+    .project_dets .right h1{
+        font-size: 22px;
+    }
+    
+
+}
+
+@media (max-width:530px){
+    .project_data{
+        grid-template-columns: 1fr;
+    }
+}

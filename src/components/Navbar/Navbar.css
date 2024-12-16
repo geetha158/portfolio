@@ -16,8 +16,10 @@
     display: flex;
     gap: 5px;
     align-items: center;
+    
    
 }
+
 
 .name_dets .slash{
     font-size: 23px;
@@ -31,8 +33,12 @@
 .name_dets .title{
     font-size: 15px;
     font-weight: 300;
+    color:rgb(15, 15, 159);
+   
 }
-
+.menu_list_container{
+    display: none;
+}
 .nav_list{
     display: flex;
     gap: 15px;
@@ -40,10 +46,16 @@
     
 }
 
+.nav_list p:hover{
+    scale: 1.11;
+}
+
 .nav_list p a:hover{
     color: blue;
 }
-
+.menuIcon{
+    display: none;
+}
 .blue{
     background: blue;
     height: 12px;
@@ -53,4 +65,94 @@
 .nav_list p a{
     text-decoration: none;
     color: black;
+}
+
+
+@media (max-width:830px){
+
+    .name_dets{
+        gap: 3px;
+    }
+
+    .blue{
+        height: 8px;
+        width: 8px;
+    }
+    
+    
+    .name_dets .slash{
+        font-size: 10px;
+    }
+    
+    .name_dets .name{
+        font-size: 13px;
+        
+    }
+    
+    .name_dets .title{
+        font-size: 11px;
+       
+    }
+
+    .nav_list p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:530px){
+    .nav_list{
+        display: none;
+    }
+    .menu_list p a{
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    
+    .menuIcon{
+        display: contents;
+    }
+    .navbar{
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1;
+    }
+    .body{
+        position: absolute;
+    }
+    .menu_list_container{
+        display: none;
+        justify-content: space-around;
+        align-items: baseline;
+        position: fixed;
+        right: 100px;
+        gap: 20px;
+        z-index: 99;
+    }
+
+    .blue{
+        height: 6px;
+        width: 6px;
+    }
+    
+    
+    .name_dets .slash{
+        font-size: 7px;
+    }
+    
+    .name_dets .name{
+        font-size: 10px;
+        
+    }
+    
+    .name_dets .title{
+        font-size: 9px;
+       
+    }
+
+    .nav_list p {
+        font-size: 8px;
+    }
+
 }

@@ -22,11 +22,11 @@ const Footer = () => {
             <div className='flex_box'>
                 <p className='bold one'>Follow</p>
                 <p className='icons'>
-                    <p><FontAwesomeIcon icon={faFacebookF}/></p>
-                    <p><FontAwesomeIcon icon={faLinkedinIn}/></p>
-                    <p><FontAwesomeIcon icon={faTwitter} /></p>
-                    <p><FontAwesomeIcon icon={faInstagram} />
-                    </p>
+                    <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faFacebookF}/></a>
+                    <a href='https://www.linkedin.com/in/geethasree/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                    <a href='https://github.com/geetha158' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a href='https://instagram.com' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faInstagram} />
+                    </a>
                 </p>
             </div>
 
