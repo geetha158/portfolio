@@ -10,33 +10,30 @@ const Contact = () => {
   const subject=useRef('');
   const messsage=useRef('');
 
-  const submitHandler=(e)=>{
+  const submitHandler = (e) => {
     e.preventDefault();
 
-    console.log(first_name,last_name,email,subject,messsage)
+    if (first_name.current.value === '' || last_name.current.value === '' || email.current.value === '' || subject.current.value === '' || messsage.current.value === '') {
+      alert('Enter all the details before submitting');
+    } else {
+      alert('Thank you for submission, our team will reach out soon');
 
-    if(first_name.current.value==='' || last_name.current.value==='' || email.current.value==='' || subject.current.value==='' || messsage.current.value===''){
+      emailjs.sendForm('service_s1wwf3k', 'template_79vw5ou', e.target, '2a4lgZh7_UPZLmO2O')
+        .then(() => {
+          console.log('SUCCESS!');
+          console.log(e.target);
 
-      alert('Enter all the details before submitting')
-
+          // Reset the form fields
+          first_name.current.value = '';
+          last_name.current.value = '';
+          email.current.value = '';
+          subject.current.value = '';
+          messsage.current.value = '';
+        }, (error) => {
+          console.log('FAILED...', error.text);
+        });
     }
-
-    else{
-      alert('Thank you for submission, our team will reach out soon')
-
-      
-    emailjs.sendForm('service_s1wwf3k', 'template_79vw5ou',e.target,'2a4lgZh7_UPZLmO2O')
-                .then(
-                       () => {
-                              console.log('SUCCESS!');
-                              console.log(e.target)
-                             },
-                       (error) => {
-                                     console.log('FAILED...', error.text);
-                                   },
-                       );
-                };
-               }
+  };
 
 
   return (
