@@ -25,7 +25,7 @@ const project_data=[
         photo:image1,
         description:'',
         skills: 'HTML, CSS, Javascript, ReactJs, fontawsome',
-        link:'https://github.com/geetha158'
+        link:'https://geethasree.netlify.app/'
     }
 ]
 
