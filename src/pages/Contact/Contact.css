@@ -75,11 +75,26 @@ textarea{
 }
 
 
-button{
+.button{
     padding: 10px 15px;
     background: blue;
     color: white;
     border-radius: 30px;
     cursor: pointer;
     width: 100px;
+}
+
+@media(max-width:830px){
+    .contact_form{
+        width: 600px;
+    }
+}
+
+
+@media(max-width:530px){
+    .contact_form{
+        width: 350px;
+    }
+
+ 
 }

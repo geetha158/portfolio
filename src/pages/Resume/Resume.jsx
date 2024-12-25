@@ -1,5 +1,6 @@
 import React from 'react'
 import './Resume.css'
+import resume from '../../assests/resume.pdf'
 const Resume = () => {
   const skills=['Javascript','HTML','CSS','ReactJS','Redux','NodeJs','ExpressJs','Git & GitHub','Postman','TailwindCss','MongoDB']
   return (
@@ -14,7 +15,7 @@ const Resume = () => {
 
         <div className='exp_header'>
           <p className='exp'>EXPERIENCE</p>
-          <p className='cv'>DOWNLOAD CV</p>
+          <p className='cv'> <a href={resume} download='geethasree_resume'>DOWNLOAD CV</a></p>
         </div>
 
         <div className='exp_dets'>

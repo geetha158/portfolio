@@ -16,10 +16,10 @@ const Herosec = () => {
                 <p className='line'></p>
                 <p className='role'>MERN Developer</p>
                 <div className='icons'>
-                <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faFacebookF}/></a>
+                    <a href='https://m.facebook.com/geethasree.geethu.15/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faFacebookF}/></a>
                     <a href='https://www.linkedin.com/in/geethasree/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLinkedinIn}/></a>
                     <a href='https://github.com/geetha158' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faTwitter} /></a>
-                    <a href='https://instagram.com' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faInstagram} />
+                    <a href='https://www.instagram.com/itsgeetha_15/?next=%2F' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </div>
 

@@ -38,6 +38,7 @@
     font-weight: bold;
 }
 
+
 .exp_header .cv{
     border: 1px solid black;
     background: blue;
@@ -46,11 +47,16 @@
     border-radius: 30px;
 }
 
-.exp_header .cv:hover{
+.cv a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .exp_header .cv:hover{
     background: white;
     border: 1px solid blue;
     color: black;
-}
+} */
 
 .exp_dets{
     display: flex;
@@ -63,6 +69,16 @@
 .dets_left{
     width: 40%;
 }
+/* .cv a{ 
+    text-decoration: none;
+    color: white;
+    background: blue;
+}
+
+.cv a:hover{
+    color: blue;
+    background: white;
+} */
 
 .dets_left h3{
     color: blue;
