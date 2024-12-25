@@ -98,3 +98,23 @@ textarea{
 
  
 }
+
+@media(max-width:430px){
+    .contact_form{
+        width: 300px;
+        padding: 30px 22px;
+    }
+
+    .names{
+        flex-direction: column;
+    }
+
+    .first_name, .last_name, .email, .subject, .Message{
+        width: 100%;
+        gap: 20px;
+    }
+
+    
+
+
+}

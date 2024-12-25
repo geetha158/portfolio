@@ -157,3 +157,59 @@
     }
 
 }
+
+
+@media(max-width:430px){
+    .name_dets .name{
+        font-size: 8px;
+    }
+
+    .name_dets .title{
+        font-size: 7px;
+    }
+    .hero_left img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .hero_left h4{
+        font-size: 9px;
+    }
+    .hero_left .line{
+        width: 50px;
+        margin-top: 2px;
+    }
+
+    .hero_left .role{
+        font-size: 10px;
+    }
+    .icons{
+        margin-top: 25px;
+        gap: 8px;
+    }
+    .hero_right div h1{
+        font-size: 35px;
+    }
+    .hero_right div .what{
+        font-size: 10px;
+        margin-top: -14px;
+    }
+    .hero_right .context{
+        font-size: 8px;
+    }
+
+    .hero_right .dets p{
+        font-size: 7px;
+        padding: 6px 9px;
+        border-radius: 6px;
+    }
+
+    .navbar{
+        padding: 35px 14px;
+    }
+    .menu_list_container{
+        right: 16px;
+        gap: 15px;
+    }
+    
+}

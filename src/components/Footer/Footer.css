@@ -69,3 +69,18 @@
         padding: 25px 30px;
     }
 }
+
+
+@media(max-width:430px){
+   
+    .footer{
+        padding: 18px 16px;
+    }
+    .flex_box{
+        gap: 14px;
+    }
+
+    .flex_box .icons{
+        gap: 11px;
+    }
+}

@@ -126,3 +126,35 @@
 li{
     list-style: none;
 }
+
+
+@media (max-width:430px){
+    .exp_header .exp{
+        font-size: 13px;
+    }
+
+    .exp_header .cv{
+        font-size: 10px;
+    }
+
+    .dets_left h3{
+        font-size: 16px;
+    }
+    .dets_right p{
+        font-size: 9px;
+    }
+
+    .data li{
+        font-size: 10px;
+    }
+
+    .list{
+        column-gap: 11px;
+        row-gap: 0;
+    }
+
+    .resume_header h1{
+        font-size: 23px;
+    }
+}
+
