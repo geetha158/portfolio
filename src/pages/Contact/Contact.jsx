@@ -35,6 +35,12 @@ const Contact = () => {
                                      console.log('FAILED...', error.text);
                                    },
                        );
+
+             first_name='';
+             last_name='';
+             messsage='';
+             email='';
+             subject='';          
                 };
                }
 
