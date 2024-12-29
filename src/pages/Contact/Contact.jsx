@@ -11,7 +11,7 @@ const Contact = () => {
   let messsage=useRef('');
 
   const submitHandler=(e)=>{
-    e.preventDefault();
+
 
     console.log(first_name,last_name,email,subject,messsage)
 
@@ -36,11 +36,7 @@ const Contact = () => {
                                    },
                        );
 
-             first_name='';
-             last_name='';
-             messsage='';
-             email='';
-             subject='';          
+                
                 };
                }
 
