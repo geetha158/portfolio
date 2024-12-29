@@ -4,14 +4,14 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
-  const first_name=useRef('');
-  const last_name=useRef('');
-  const email=useRef('');
-  const subject=useRef('');
-  const messsage=useRef('');
+  let first_name=useRef('');
+  let last_name=useRef('');
+  let email=useRef('');
+  let subject=useRef('');
+  let messsage=useRef('');
 
   const submitHandler=(e)=>{
-    e.preventDefault();
+    // e.preventDefault();
 
     console.log(first_name,last_name,email,subject,messsage)
 
