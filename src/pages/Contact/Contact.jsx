@@ -11,7 +11,7 @@ const Contact = () => {
   let messsage=useRef('');
 
   const submitHandler=(e)=>{
-    e.preventDefault();
+    // e.preventDefault();
 
     console.log(first_name,last_name,email,subject,messsage)
 
